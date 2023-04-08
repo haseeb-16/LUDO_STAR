@@ -1,12 +1,10 @@
-#include "dice.h"
+#include "Dice.h"
 #include"Header.h"
 
-using namespace std;
-
-dice::Dice() {
+Dice::Dice() {
 	this->value = 0;
 }
 int Dice::getvalue() {
-	srand(time(0));
-	return (this->value % (5)+1);
+	//srand(time(0));
+	//return (this->value % (5)+1);
 }
