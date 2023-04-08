@@ -1,2 +1,2 @@
 #pragma once
-enum color{RED,GREEN,BLUE,YELLOW};
+enum color{Red,Green,Blue,Yellow};
