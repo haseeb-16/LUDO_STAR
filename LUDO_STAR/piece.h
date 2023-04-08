@@ -1,6 +1,7 @@
 #pragma once
-class piece
+#include"Header.h"
+class Piece:public PlaerBox
 {
-
+	color clr;
 };
 
