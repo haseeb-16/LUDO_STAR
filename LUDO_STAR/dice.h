@@ -1,5 +1,5 @@
 #pragma once
-#include"Ludo.h"
+#include"ludo.h"
 
 class Dice:public Ludo
 {
