@@ -5,6 +5,7 @@
 #include<time.h>
 #include<algorithm>
 #include<stdexcept>
+#include"player.h"
 using namespace std;
 
-enum color{Red,Green,Blue,Yellow};
+enum color{RED,GREEN,BLUE,YELLOW};

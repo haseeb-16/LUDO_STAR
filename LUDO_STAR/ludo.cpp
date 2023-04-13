@@ -8,7 +8,7 @@ using namespace std;
 void ludo::play()
 {
 	int num;
-	cout << "\nEnter number of players: ";
+	cout << "\nEnter number of players(2,3,4): ";
 	cin >> num;
 	player* pls;
 	pls = new player[num];

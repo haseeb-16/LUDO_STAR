@@ -1,10 +1,10 @@
 #pragma once
 #include"ludo.h"
 
-class Dice:public Ludo
+class Dice
 {
 	int value;
 public:
 	Dice();
-	int getvalue();
+	void getvalue();
 };
