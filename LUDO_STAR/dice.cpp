@@ -10,3 +10,8 @@ void Dice::getvalue() {
 	this->value = rand();
     this->value % (5)+1;
 }
+void Dice::display_dice()
+{
+	
+}
+
