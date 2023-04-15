@@ -7,4 +7,5 @@ class Dice
 public:
 	Dice();
 	void getvalue();
+	void display_dice();
 };

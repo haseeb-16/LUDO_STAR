@@ -10,5 +10,7 @@ public:
 	player();
 	player(string name, color c);
 	void assi(string name, color c);
+	color retrn_clr();
+
 };
 

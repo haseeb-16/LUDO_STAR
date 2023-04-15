@@ -8,6 +8,7 @@ class Piece
 public:
 	Piece();
 	Piece(int _r, int _c, color _clr);
+	
 
 };
 

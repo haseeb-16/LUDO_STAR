@@ -1,12 +1,23 @@
 #include "ludo.h"
 #include"player.h"
+#include"piece.h"
 #include"Header.h"
 #include<iostream>
 using namespace std;
 
+void change_turn(int& turn, int num)
+{
+	turn = turn + 1;
+	turn = turn % num;
+}
+ludo::ludo()
+{
+	this->plr = nullptr;
+}
 
 void ludo::play()
 {
+	int turn=0;
 	int num;
 	cout << "\nEnter number of players(2,3,4): ";
 	cin >> num;
@@ -27,5 +38,7 @@ void ludo::play()
 			pls[i].assi(na, GREEN);
 
 	}
+
+
 
 }
